@@ -12,11 +12,7 @@ strong {color: green;}
 
 a#info {color: black}
 
-aside{
-    font-size: 10px;
-}
-
-footer{
+aside, footer{
     font-size: 10px;
 }
 
