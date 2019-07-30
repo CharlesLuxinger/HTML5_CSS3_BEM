@@ -36,6 +36,8 @@ body > header > div  {
     border-style: dashed;*/
     border: thick black dashed;
     border-radius: 10px;
+    /*Espaçamento interno*/ 
+    padding: 0px 20px;
 }
 
 /*Seletores Descedentes */
