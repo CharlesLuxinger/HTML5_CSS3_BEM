@@ -1,18 +1,23 @@
+/*Seletores ID */
 h1#tittle {
     color: rgb(19, 19, 109);
     font-family: Arial;
 }
 
-/*Seletores ID */
 h2#titleAbout {
     color: rgb(143, 17, 17);
     font-family: Arial;
 }
 
+a#info {color: black}
+
+/*Seletores de Filho direto*/
+article > header {
+    font-style: italic;
+}
+
 /*Seletores Descedentes */
 .textAbout strong {color: rgb(87, 0, 128);}
-
-a#info {color: black}
 
 /*Seletores Agrupados*/
 aside, footer{
