@@ -3,19 +3,23 @@ h1#tittle {
     font-family: Arial;
 }
 
+/*Seletores ID */
 h2#titleAbout {
     color: rgb(143, 17, 17);
     font-family: Arial;
 }
 
-strong {color: green;}
+/*Seletores Descedentes */
+.textAbout strong {color: rgb(87, 0, 128);}
 
 a#info {color: black}
 
+/*Seletores Agrupados*/
 aside, footer{
     font-size: 10px;
 }
 
+/*Seletores Classe */
 p.textAbout{
     font-size: 15px;
 }
