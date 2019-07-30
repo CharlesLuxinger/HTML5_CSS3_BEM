@@ -27,9 +27,15 @@ article > p {
 
 body > header > div  {
     display: inline-block;
-    background-color: rgb(236, 183, 122);
+    background-color: rgb(250, 216, 202);
     color: rgb(19, 19, 109);
     font-family: cursive;
+    /*Borda*/
+    /*border-width: thick;
+    border-color: black;
+    border-style: dashed;*/
+    border: thick black dashed;
+    border-radius: 10px;
 }
 
 /*Seletores Descedentes */
