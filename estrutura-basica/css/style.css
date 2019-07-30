@@ -2,12 +2,19 @@
 body{
     background-color: rgb(228, 216, 202);
     text-align: center;
+    border: thin black dashed;
+    margin: 0px;
+}
+
+img{
+    margin-top: 20px;
 }
 
 /*Seletores ID */
 h2#titleAbout {
     color: rgb(143, 17, 17);
     font-family: Arial;
+    margin: 5px;
 }
 
 a#info {
@@ -23,6 +30,7 @@ article > header {
 
 article > p {
     text-align: inherit;
+    margin: 5px;
 }
 
 body > header > div  {
@@ -38,6 +46,7 @@ body > header > div  {
     border-radius: 10px;
     /*Espaçamento interno*/ 
     padding: 0px 20px;
+    margin: 20px;
 }
 
 /*Seletores Descedentes */
