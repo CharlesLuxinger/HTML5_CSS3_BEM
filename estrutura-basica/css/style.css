@@ -1,7 +1,12 @@
+/*Seletor direto*/
+body{
+    background-color: rgb(228, 216, 202);
+}
+
 /*Seletores ID */
-h1#tittle {
+h1#title {
     color: rgb(19, 19, 109);
-    font-family: Arial;
+    font-family: cursive;
 }
 
 h2#titleAbout {
@@ -14,6 +19,7 @@ a#info {color: black}
 /*Seletores de Filho direto*/
 article > header {
     font-style: italic;
+    font-size: 14px;
 }
 
 /*Seletores Descedentes */
