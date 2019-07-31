@@ -10,6 +10,17 @@ article{
     background-color: #0f0;
 }
 
+article > p::first-letter {
+    font-size: 60px;
+    color: red;
+}
+
+article::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 footer{
     background-color: yellow;
     text-align: center;
@@ -29,6 +40,10 @@ footer{
     width: 48%;
 }
 
-.clearfix{
-    clear: both;
+h1::before{
+    content: "Título: ";
+}
+
+h1::after{
+    content: " - Artigo";
 }
