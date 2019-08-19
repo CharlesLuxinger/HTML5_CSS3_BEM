@@ -1,0 +1,12 @@
+Metodologia BEM(Block Element Modifier)
+
+1. Block(Componente)
+    > Entidade independente que possui seu próprio significado.
+    > E pode ser reaproveitado em outra parte do código.
+
+2. Element
+    > Uma parte de um bloco que não tem significado independente e está semanticamente ligado ao seu bloco.
+
+3. Modifier
+    > Um sinalizador em um bloco ou elemento. 
+    > Usado para mudar a aparência ou o comportamento.
