@@ -1,21 +1,21 @@
-*{
+/**{                        -> Removido por já existir no bootstrap base.css
     box-sizing: border-box;
-}
+}       
 
-body{
+body{                       -> Movido para base.css
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-}
+}*/
 
-header {
+/*header {                  -> Movido para layout.css
     height: 60px;
     border-bottom: 1px solid #ccc;
 }
 
 header img{
     margin-top: 12px 
-}
+}*/
 
 /*
 .container {
@@ -25,7 +25,7 @@ header img{
     margin: 0 auto;
 } */
 
-#planos{
+/*#planos{                  -> Movido para layout.css
     padding: 80px 0;
 }
 
@@ -33,12 +33,14 @@ header img{
     content: "";
     display: block;
     clear: both;
-}
+}*/
 
+/*                          > Movido para componentes.css
 article{
     padding: 10px;
     border: 1px solid #95a4a5;
-}
+}*/
+
  /*
 @media (min-width: 800px) {
     article{
@@ -48,6 +50,7 @@ article{
     }
 }*/
 
+/*                          > Movido para componentes.css
 article > h2{
     background-color: #95a4a5;
     color: #fff;
@@ -88,4 +91,4 @@ article > footer {
 
 .botao:hover, .botao:focus{
     background-color: #0e6400;
-}
+}*/
