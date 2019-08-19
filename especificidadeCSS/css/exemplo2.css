@@ -1,0 +1,29 @@
+body {
+  font-size: 32px;
+}
+
+header#cabecalho h1.logo { /* 112 + Preferencia(+ Especifico) perde para o style-inline*/
+  color: yellow;
+}
+
+header#cabecalho .logo { /* 111 */
+  color: purple;
+}
+
+#cabecalho .logo { /* 110 */
+  color: red;
+}
+
+header .logo { /* 011 */
+  color: green;
+}
+
+.logo {
+  color: blue; /* 010 */
+}
+
+ /* 
+  Calculo Peso(Se Possuir a 1, se não 0)
+  ID  CLASSE  TAG
+  1   1       1
+  */

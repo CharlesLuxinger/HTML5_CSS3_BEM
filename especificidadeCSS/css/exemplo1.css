@@ -1,0 +1,27 @@
+body {
+    font-size: 32px;
+  }
+  
+  /*
+  h1 { Seletores iguais o último prevalece
+    color: red;
+  }
+  */
+  
+  #logo { /* 100(Peso)  + Preferencia(+ Especifico)*/
+    color: green;
+  }
+  
+  .amarelo { /* 010(Peso) +- Preferencia*/
+    color: yellow;
+  }
+  
+  h1 { /* 001(Peso) - Preferencia(!important força e preferencia)*/
+    color: blue !important;
+  }
+
+  /* 
+  Calculo Peso(Se Possuir a 1, se não 0)
+  ID  CLASSE  TAG
+  1   1       1
+  */
