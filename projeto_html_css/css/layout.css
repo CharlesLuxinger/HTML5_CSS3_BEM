@@ -44,3 +44,9 @@
 
     text-align: center;
 }
+
+@media(max-width: 749px){
+    .layout-planos .row > div:not(.ultima-coluna){
+        margin-bottom: 40px;
+    }
+}

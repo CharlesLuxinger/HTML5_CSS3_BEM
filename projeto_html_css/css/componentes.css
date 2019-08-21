@@ -65,28 +65,28 @@
     text-decoration: none;
 }
 
-.botao:hover, .botao:focus{
-    background-color: #aaa;
-    text-decoration: none;
-    color: #fff;
-}
+    .botao:hover, .botao:focus{
+        background-color: #aaa;
+        text-decoration: none;
+        color: #fff;
+    }
 
-.botao--assinar{
-    background-color: #127d00;
-}
+    .botao--assinar{
+        background-color: #127d00;
+    }
 
-.botao--assinar:hover, .botao--assinar:focus{
-    background-color: #0e6400;
-}
+    .botao--assinar:hover, .botao--assinar:focus{
+        background-color: #0e6400;
+    }
 
-.botao--principal{
-    border-radius: 10px;
+    .botao--principal{
+        border-radius: 10px;
 
-    background-color: #004b86;
-}
-.botao--principal:hover, .botao--principal:focus{
-    background-color: #003b6a;
-}
+        background-color: #004b86;
+    }
+    .botao--principal:hover, .botao--principal:focus{
+        background-color: #003b6a;
+    }
 
 /* Chamada */ 
 .chamada{
@@ -94,36 +94,36 @@
     text-align: center;
 }
 
-.chamada__titulo{
-    margin: 0;
-    
-    color: #fff;
+    .chamada__titulo{
+        margin: 0;
+        
+        color: #fff;
 
-    font-size: 3.375em;
-    line-height: 0.9;
-    text-shadow: 1px 1px #313131;
-}
-
-.chamada__subtitulo{
-    margin: 60px 0;
-
-    color: #fff;
-
-    font-size: 1em;
-}
-
-.chamada__acao{
-    font-size: 1em;
-}
-
-@media(min-width: 992px){
-    .chamada{
-        padding-left: 10%;
-        padding-right: 10%;
-
-        font-size: 2.2rem;
+        font-size: 3.375em;
+        line-height: 0.9;
+        text-shadow: 1px 1px #313131;
     }
-}
+
+    .chamada__subtitulo{
+        margin: 60px 0;
+
+        color: #fff;
+
+        font-size: 1em;
+    }
+
+    .chamada__acao{
+        font-size: 1em;
+    }
+
+    @media(min-width: 992px){
+        .chamada{
+            padding-left: 10%;
+            padding-right: 10%;
+
+            font-size: 2.2rem;
+        }
+    }
 
 /* Depoimento */
 
@@ -131,34 +131,34 @@
     font-size: 2.2rem;
 }
 
-.depoimento > blockquote{
-    margin: 0;
-    padding: 0 60px;
+    .depoimento > blockquote{
+        margin: 0;
+        padding: 0 60px;
 
-    text-align: center;
-    font-size: 1em;
-}
+        text-align: center;
+        font-size: 1em;
+    }
 
-.depoimento__autor{
-    margin-top: 40px;
+    .depoimento__autor{
+        margin-top: 40px;
 
-    text-align: center;
-    font-size: 0.7272em;
-}
+        text-align: center;
+        font-size: 0.7272em;
+    }
 
-.depoimento__autor > img{
-    border-radius: 50%;
-}
+    .depoimento__autor > img{
+        border-radius: 50%;
+    }
 
-.depoimento__autor > p{
-    margin-top: 10px;
-}
+    .depoimento__autor > p{
+        margin-top: 10px;
+    }
 
-@media(min-width: 992px){
-    .depoimento{
-        padding-left: 15%;
-        padding-right: 15%;
+    @media(min-width: 992px){
+        .depoimento{
+            padding-left: 15%;
+            padding-right: 15%;
 
-        font-size: 2.8rem;
-    } 
-}
+            font-size: 2.8rem;
+        } 
+    }
