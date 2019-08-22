@@ -59,9 +59,13 @@
 /* Botão */ 
 .botao {
     display: inline-block;
+    padding: 0.8em 1.2em;
+
     background-color: #bbb;
     color: #fff;
-    padding: 0.8em 1.2em;
+    
+    line-height: normal;
+    font-size: 1em;
     text-decoration: none;
 }
 
@@ -71,12 +75,13 @@
         color: #fff;
     }
 
-    .botao--assinar{
+    .botao--assinar, .botao--login{
         background-color: #127d00;
     }
 
-    .botao--assinar:hover, .botao--assinar:focus{
-        background-color: #0e6400;
+    .botao--assinar:hover, .botao--assinar:focus,
+    .botao--login:hover, .botao--login:focus{
+    background-color: #0e6400;
     }
 
     .botao--principal{
@@ -205,3 +210,32 @@
         display: none;
     }
 }
+
+/* Menu */
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+    width: 200px;
+    margin: 0;
+    padding: 20px;
+    border-right: 1px solid #eee;
+
+    font-size: 1.4rem;
+
+    background-color: #fbfbfb;
+
+    list-style: none;
+}
+
+    .menu__item {
+        display: block;
+
+        line-height: 3;
+    }
+
+    .menu__item--botao{
+        margin-top: 20px;
+    }
